@@ -25,9 +25,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css" ,
+              "node_modules/intl-tel-input/build/css/intlTelInput.min.css"
+   
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/intl-tel-input/build/js/utils.js",
+    "node_modules/intl-tel-input/build/js/intlTelInput.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
