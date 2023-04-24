@@ -21,7 +21,7 @@ export class LoginComponent {
 } 
 constructor(private router: Router) {}
 goto() {
-  this.router.navigate(['./']);
+  this.router.navigate(['./otp']);
 }
 
 }
